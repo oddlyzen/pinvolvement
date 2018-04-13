@@ -34,11 +34,13 @@ gem 'devise'
 gem 'pry'
 gem 'pry-rails'
 
-# Beter Admin
+# Beter Admin - pulling from the git repo for Rails 5.2+ support
 gem 'activeadmin', github: 'pynixwang/activeadmin', branch: 'rails-5.2'
 
 # Better Forms
 gem 'simple_form'
+
+gem 'bulma'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

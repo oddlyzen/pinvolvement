@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  project: one
+  comment: MyText
+  lat: 1.5
+  long: 1.5
+
+two:
+  user: two
+  project: two
+  comment: MyText
+  lat: 1.5
+  long: 1.5
