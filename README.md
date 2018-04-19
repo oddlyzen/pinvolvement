@@ -1,24 +1,8 @@
-# README
+# PINVOLVEMENT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This text will be updated after discussion with Lochner. Will contain a to-do list, at very least.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TO-DO
+[ ] Meeting with Lochner team re: admin interface
+[x] Admin interface setup
+[x] Initial domain model created
