@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_13_191341) do
+ActiveRecord::Schema.define(version: 2018_04_19_194533) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -54,6 +54,15 @@ ActiveRecord::Schema.define(version: 2018_04_13_191341) do
     t.float "long"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "first_name", limit: 25
+    t.string "last_name", limit: 25
+    t.string "email", limit: 40
+    t.string "phone", limit: 14
+    t.string "street_address", limit: 75
+    t.string "city", limit: 30
+    t.string "state", limit: 2
+    t.string "zip", limit: 10
+    t.string "subject", limit: 100
     t.index ["project_id"], name: "index_interactions_on_project_id"
     t.index ["user_id"], name: "index_interactions_on_user_id"
   end
